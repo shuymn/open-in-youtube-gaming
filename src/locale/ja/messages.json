@@ -1,0 +1,19 @@
+{
+  "extName": {
+    "message": "Open in YouTube Gaming",
+    "description": "extension name"
+  },
+  "extDescription": {
+    "message":
+      "YouTubeとYouTube Gamingの動画/生放送ページを行き来するためのコンテキストメニューを追加する拡張機能です。",
+    "description": "extensionn description"
+  },
+  "menuLinkToWwwYoutube": {
+    "message": "YouTubeで開く",
+    "description": ""
+  },
+  "menuLinkToGamingYoutube": {
+    "message": "YouTube Gamingで開く",
+    "description": ""
+  }
+}

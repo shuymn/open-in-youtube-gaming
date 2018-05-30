@@ -1,0 +1,39 @@
+{
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "dev-build": "webpack --config webpack.dev.js",
+    "commitmsg": "echo $GIT_PARAMS | commitlint -e $GIT_PARAMS",
+    "precommit": "lint-staged"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "lint-staged": {
+    "src/**/*.json": [
+      "prettier -l"
+    ]
+  },
+  "prettier": {
+    "printWidth": 120
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^6.2.0",
+    "@commitlint/config-conventional": "^6.1.3",
+    "@types/chrome": "^0.0.66",
+    "copy-webpack-plugin": "^4.5.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.1.2",
+    "prettier": "1.13.2",
+    "ts-loader": "^4.3.0",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "tslint-plugin-prettier": "^1.3.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.10.0",
+    "webpack-cli": "^2.1.4",
+    "webpack-merge": "^4.1.2"
+  },
+  "private": true
+}

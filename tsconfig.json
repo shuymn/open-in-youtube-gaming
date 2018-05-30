@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "sourceMap": false,
+    "target": "es6",
+    "module": "es2015",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "rootDir": "./src/script",
+    "outDir": "./dist/script",
+    "lib": ["dom", "es2017"]
+  }
+}

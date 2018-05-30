@@ -1,0 +1,18 @@
+{
+  "extName": {
+    "message": "Open in YouTube Gaming",
+    "description": "extension name"
+  },
+  "extDescription": {
+    "message": "Add context menu for freely switching betweetn YouTube and YouTube Gaming",
+    "description": "extensionn description"
+  },
+  "menuLinkToWwwYoutube": {
+    "message": "Open in YouTube",
+    "description": ""
+  },
+  "menuLinkToGamingYoutube": {
+    "message": "Open in YouTube Gaming",
+    "description": ""
+  }
+}
